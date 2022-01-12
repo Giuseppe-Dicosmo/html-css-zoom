@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Candal&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+
   <!-- icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -11,6 +17,18 @@
   <title>Document</title>
 </head>
 <body>
+  <section>
+    <div class="position flex">
+      <ul class="flex">
+        <li>
+          <i class="fas fa-th"></i>
+          Speaker View
+        </li>
+        <li><i class="fas fa-expand-arrows-alt"></i></li>
+      </ul>
+    </div>
+  </section>
+
   <main class="flex">
     <div class="container flex">
       <!-- card 1 -->
@@ -292,11 +310,111 @@
           Pinco Pallo
         </div>
       </div>
-
     </div>
   </main>
 
-  <header></header>
+  <header class="flex">
+    <div class="audio-video">
+
+      <ul class="flex">
+        <!-- audio -->
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-microphone"></i>
+            <p>mute</p>
+          </a>
+          <a href="#">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </li>
+
+        <!-- video -->
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-video"></i>
+            <p>stop video</p>
+          </a>
+          <a href="#">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="nav">
+
+      <ul class="flex">
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-user-plus"></i>
+            <p>invite</p>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-user-friends"></i>
+            <p>manage participants</p>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-chart-bar"></i>
+            <p>polling</p>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-share-square"></i>
+            <p>share screen</p>
+          </a>
+          <a href="#">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-comment"></i>
+            <p>chat</p>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-record-vinyl"></i>
+            <p>record</p>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-th-large"></i>
+            <p>breakout rooms</p>
+          </a>
+        </li>
+
+        <li class="flex">
+          <a href="#">
+            <i class="icon fas fa-ellipsis-h"></i>
+            <p>more</p>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="end-video-call flex">
+
+      <a href="#">
+        end meeting
+      </a>
+
+    </div>
+  </header>
 
 </body>
 </html>
